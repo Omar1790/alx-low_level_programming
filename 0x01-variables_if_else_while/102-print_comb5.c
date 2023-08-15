@@ -14,10 +14,10 @@ int main(void)
 
 	while (x <= 99)
 	{
-		x != y;
+		x = y;
 		while (y <= 99)
 		{
-			if (y != x)
+			if (x != y)
 			{
 				putchar((x / 10) + 48);
 				putchar((x % 10) + 48);
