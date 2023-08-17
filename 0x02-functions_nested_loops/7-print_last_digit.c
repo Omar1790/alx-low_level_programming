@@ -5,7 +5,7 @@
  *
  * @n: int input
  *
- * Returns: x
+ * Returns: lastDigit
 */
 
 int print_last_digit(int n)
