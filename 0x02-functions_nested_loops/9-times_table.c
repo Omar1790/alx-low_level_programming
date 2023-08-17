@@ -7,7 +7,7 @@
  * 0, 0, 0, 0, ..
  * 0, 1, 2, 3, ..
 */
-i
+
 void times_table(void)
 {
 	int num, mult, prod;
