@@ -1,4 +1,4 @@
-@include "main.h"
+#include "main.h"
 
 /**
  * more_numbers - printing numbers 0-14 10 times
