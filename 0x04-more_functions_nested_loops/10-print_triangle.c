@@ -10,22 +10,23 @@
 
 void print_triangle(int size)
 {
-	int high, base;
+	int inc1, inc2;
 
-	if (size <= 0)
-		_putchar('\n');
-	else
+	if (size > 0)
 	{
-		for (high = 1; high <= size; high++)
+		for (inc1 = 1; inc1 <= size; inc1++)
 		{
-			for (base = 1; base <= size; base++)
-			{
-				if ((high + base) <= size)
-					_putchar(" ");
-				else
-					_putchar("#");
-			}
+			for ((inc2 = size - inc1); inc2 > 0; inc2--)
+				_putchar(' ');
+
+			for (inc2 = 0; inc2 < inc1; inc2++)
+				_putchar('#');
+
+			if (inc1 == size)
+				continue;
+
 			_putchar('\n');
 		}
 	}
+	_putchar('\n');
 }
