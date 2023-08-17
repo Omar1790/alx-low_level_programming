@@ -6,7 +6,7 @@
  * @n: number of \ printed
 */
 
-ivoid print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int postn, space;
 
