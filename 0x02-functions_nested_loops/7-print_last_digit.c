@@ -8,7 +8,7 @@
  * Returns: x
 */
 
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	int x;
 
@@ -17,6 +17,6 @@ int print_last_digit(int n);
 	else
 		x = n % 10;
 
-	_putchar(x + '0');
+	_putchar(n + '0');
 	return (n);
 }
