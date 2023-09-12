@@ -1,6 +1,13 @@
 #include "dog.h"
 
-/***/
+/**
+ * init_dog - inits a var of type dog
+ *
+ * @d: dog
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner's name
+*/
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
